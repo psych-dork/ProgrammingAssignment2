@@ -58,7 +58,7 @@ cacheSolve <- function(x, ...) {
         ## mat variable has the original matrix
         mat <- x$get()
         
-        ## if mat is a square invertible matrix, then solve(mat) returns its inverse
+        ## If mat is a square invertible matrix, then solve(mat) returns its inverse
         inv <- solve(mat, ...)
         
         ## inverse of the matrix is passed to setInverse
